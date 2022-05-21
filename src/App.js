@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
+import Navbar from './components/Navbar';
 import './App.css';
+import { Component } from 'react';
 
 function App() {
   return (
-    <div>
-      <h1>MovieStar</h1>
-      <h3>Featured</h3>
-    </div>
+    <>
+      <Navbar />
+    </>
+
   );
 }
 
