@@ -48,7 +48,7 @@
 
 .header::after {
   content: '';
-  display: float;
+  display: block;
   clear: both;
 }
 
@@ -67,13 +67,54 @@
 .header ul li {
   list-style: none;
   display: inline-block;
-  padding: 0rem 2rem;
+  padding: 0vh 2vw;
   font-size: 1.5em;
   font-weight: 500;
 }
+
+/* --------------card------------ */
+.banner-card {
+  width: 100vw;
+  margin-top: 0rem;
+  margin-bottom: 3vh;
+  position: relative;
+  height: 90vh;
+  color: white;
+}
+
+.banner-img {
+  margin-top: 2vh;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-title {
+  position: absolute;
+  top: 48vh;
+  left: 5vw;
+
+}
+
+.banner-text {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+  overflow: hidden;
+}
+
 
 
 /* ----------------utility classess------------- */
 .spacing {
   letter-spacing: 0.2px;
+}
+
+.text {
+  color: rgb(76, 56, 133);
+}
+
+.text-white {
+  color: white;
 }
