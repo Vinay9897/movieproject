@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
     render() {
         return (
-            <div className='container'>
+            <div className='con'>
                 <div className="header">
                     <h1 className='spacing'> MOVIESTAR</h1>
                     <ul className='items'>
