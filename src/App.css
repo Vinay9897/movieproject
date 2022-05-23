@@ -104,7 +104,56 @@
   overflow: hidden;
 }
 
+/* -----------Trending----------------- */
+.movies-list {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.movies-card {
+  margin: 1rem;
+  width: 20vw;
+  height: 35vh;
+  position: relative;
+  display: block;
+}
+
+.movies-title {
+  padding: 2vh 1vh;
+  text-align: center;
+}
+
+.movies-btn {
+  position: absolute;
+  top: 16.5vh;
+  left: 8.5vw;
+  text-align: center;
+}
+
+.movies-img {
+  /* height: ; */
+  width: 100%;
+}
+
+/* ---------media-query------------ */
+@media screen and (max-width:450px) {
+  .movies-card {
+    width: 40vw;
+    margin: 0.2rem 0.2rem;
+  }
+
+  .movies-img {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .button-wrapper .movies-btn {
+    text-align: center;
+    top: 13.2vh;
+  }
+}
 
 /* ----------------utility classess------------- */
 .spacing {
